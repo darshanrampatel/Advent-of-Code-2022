@@ -6,16 +6,13 @@
 		<RootNamespace>Advent_of_Code_2022</RootNamespace>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<Content Include="Day*.txt">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="Day2.txt" />
 	</ItemGroup>
 
 </Project>
