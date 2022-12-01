@@ -43,7 +43,7 @@ interface ISolver
     public void Run(int day)
     {
         Console.WriteLine();
-        Console.WriteLine($"### Day {day:00} ###");
+        Console.WriteLine($"--- Day {day:00}: {Title} ---");
         var filename = $"Day{day}.txt";
         try
         {
@@ -59,4 +59,5 @@ interface ISolver
     }
     string PartOne(string input);
     string PartTwo(string input);
+    string Title { get;}
 }
